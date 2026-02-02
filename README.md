@@ -15,5 +15,5 @@ cd TwentyCRM/
 sudo nano .env
 ```
 ```bash
-docker compose up -d dds
+docker compose up -d
 ```
