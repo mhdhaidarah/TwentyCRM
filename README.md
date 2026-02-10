@@ -18,3 +18,8 @@ sudo nano .env
 ```bash
 docker compose up -d
 ```
+
+## Optional Auto Start
+```bash
+docker update --restart=always <container-name>
+```
