@@ -21,5 +21,8 @@ docker compose up -d
 
 ## Optional Auto Start
 ```bash
-docker update --restart=always <container-name>
+docker update --restart=always twenty-db-1
+docker update --restart=always twenty-redis-1
+docker update --restart=always twenty-server-1
+docker update --restart=always twenty-worker-1
 ```
